@@ -1,0 +1,39 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"facing": "north"
+			},
+			"apply": {
+				"model": "europeanrail:block/signal_semapore_base_extended"
+			}
+		},
+		{
+			"when": {
+				"facing": "east"
+			},
+			"apply": {
+				"model": "europeanrail:block/signal_semapore_base_extended",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"facing": "south"
+			},
+			"apply": {
+				"model": "europeanrail:block/signal_semapore_base_extended",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"facing": "west"
+			},
+			"apply": {
+				"model": "europeanrail:block/signal_semapore_base_extended",
+				"y": 270
+			}
+		}
+	]
+}

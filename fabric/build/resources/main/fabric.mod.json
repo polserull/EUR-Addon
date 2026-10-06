@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "europeanrail",
+	"version": "1.19.4-1.0.0",
+	"name": "European Railways Addon",
+	"description": "An MTR Addon that adds various blocks and signals from European Railways!",
+	"authors": [
+		"[Creator] pølserull",
+		"[Support] szandorthe13th"
+	],
+	"contributors": [
+		"[Translation] balazskis",
+		"[Translation] JustNoone"
+    ],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/european-railways-addon",
+		"issues": "https://github.com/polserull/European-Railways-Addon/issues",
+		"sources": "https://github.com/polserull/European-Railways-Addon"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gb.polserull.europeanrail.fabric.MainFabric"
+		],
+		"client": [
+			"gb.polserull.europeanrail.fabric.MainFabricClient"
+		],
+		"modmenu": [
+			"gb.polserull.europeanrail.fabric.ModMenuApiImpl"
+		]
+	},
+	"mixins": [
+		"britishrail.mixins.json"
+	],
+	"depends": {
+		"fabric": "*",
+		"minecraft": "*",
+		"mtr": "*"
+	}
+}
